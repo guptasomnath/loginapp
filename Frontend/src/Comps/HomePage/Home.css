@@ -1,0 +1,25 @@
+.HomeDiv{
+    height: 100vh;
+    height: -webkit-fill-available;
+    height: 100dvh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: black;
+}
+
+.HomeDiv button{
+    padding: 8px 15px;
+    cursor: pointer;
+    background-color: rgb(154, 154, 179);
+    border: 0;
+    border-radius: 12px;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+.HomeDiv button:hover{
+    background-color: rgb(126, 126, 157);
+}

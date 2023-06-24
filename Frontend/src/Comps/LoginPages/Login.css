@@ -1,0 +1,103 @@
+.mainLoginLayout {
+  /*min-height: 100dvh;*/
+  height: 100vh;
+  height: -webkit-fill-available;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.loginTitle {
+  text-align: left;
+  color: rgb(62, 60, 60);
+  margin-bottom: 15px;
+}
+
+.loginTitle a {
+  color: blue;
+  font-weight: 500;
+  font-size: 14px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.loginInputDiv input {
+  padding: 9px 12px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+  width: 280px;
+  outline: none;
+  border: 1px solid #a3a5a4;
+}
+
+.checkboxLbl{
+  color: #292b2a;
+  text-align: left;
+  margin-bottom: 13px;
+  display: flex;
+  align-items: center;
+}
+
+.checkboxLbl input{
+    margin-right: 10px;
+    width: 14px;
+    height: 14px;
+}
+
+.loginDiv button{
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.signBtn{
+    background-color: #0061FF;
+    color: #fff;
+    border: none;
+    padding: 11px 12px;
+    transition: all 0.3s;
+}
+
+.signBtn:hover{
+  background-color: #4b73b5;
+}
+
+.signwithgoogleBtn{
+    display: flex;
+    padding: 5px 12px;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border: 1px solid #a3a5a4;
+}
+
+.signwithgoogleBtn img{
+    width: 25px;
+    margin: 0 5px;
+}
+
+.forgotPasLbl{
+    color: #292b2a;
+    font-size: 14px;
+    font-weight: 500;
+    color: blue;
+    text-decoration: none;
+    width: 100%;
+    text-align: left;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 280px) {
+
+    .loginInputDiv input {
+        width: 230px;
+    }
+    
+}

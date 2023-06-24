@@ -1,0 +1,10 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.App{
+    text-align: center;
+    color: aliceblue;
+    height: -webkit-fill-available;
+}

@@ -162,7 +162,6 @@ exports.sendOtp = async (req, res) => {
       return;
     }
     const myOtp = Math.floor(1000 + Math.random() * 9000);
-	console.log(myOtp);
     otps.push({
       email: toEmail,
       otp: myOtp,

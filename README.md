@@ -1,6 +1,15 @@
 # Login App
 Complete login project using the MERN stack, which includes features such as responsive design, Gmail OTP verification, forgot password functionality, custom access key similar to JWT, and login and signup capabilities
 
+
+## Features
+
+- Gmail OTP verification
+- Forgot password functionality
+- Custom access key Generator similar to JWT
+- Login and Signup capabilities
+
+
 # Backend API Documentation
   **--Sign Up Api--**
   

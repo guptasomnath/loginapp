@@ -36,7 +36,7 @@ Complete login project using the MERN stack, which includes features such as res
 
   **--Verify OTP Api--**
 
-    EndPoint :- "/verifyotp",
+    EndPoint :- "/verifyotp", (ex: API_URL/verifyotp)
     Method : POST,
     Body Params : username, gmail, password, otp, vtype = "createaccount"
 
@@ -56,7 +56,7 @@ Complete login project using the MERN stack, which includes features such as res
 
   **--Login OTP Api--**
   
-      EndPoint :- "/login",
+      EndPoint :- "/login", (ex: API_URL/login)
       Method : POST,
       Body Params : gmail, password
 
@@ -76,7 +76,7 @@ Complete login project using the MERN stack, which includes features such as res
 
    **--Forgot Password Api--**
    
-       EndPoint :- "/verifyotp",
+       EndPoint :- "/verifyotp", (ex: API_URL/verifyotp)
        Method : POST,
        Body Params : gmail, otp, newpassword, vtype = "forgotpassword"
 
